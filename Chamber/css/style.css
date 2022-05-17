@@ -12,6 +12,31 @@ header {
     background-color:#353839;
     padding: 50px;
     color: white;
+    display: flex;
+}
+.headtxt {
+    margin-left: 50px;
+}
+.mainnav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 10px;
+}
+.mainnav a {
+    text-decoration: none;
+    margin-left: 40px;
+    color: white;
+}
+.mainnav a:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: #353839;
+}
+.social a img {
+    width: 50px;
+    margin-top: 80%;
+    margin-left: 20px;
 }
 main {
     display: grid;
@@ -28,6 +53,9 @@ main p {
     padding: 90px;
     background-color: lightgray;
 }
+.logo {
+    width: 100px;
+}
 .rightlong {
     grid-column: 3/4;
     grid-row: 1/4;
@@ -36,9 +64,15 @@ main p {
     grid-column: 2/3;
     grid-row: 1/3;
 }
+.rightlong div {
+    /* width: 100px; */
+    /* height: 50px; */
+}
 footer {
     background-color:#353839;
     padding: 50px;
     color: white;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
 }
