@@ -59,14 +59,25 @@ main p {
 .rightlong {
     grid-column: 3/4;
     grid-row: 1/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: lightgrey;
+    align-items: center;
 }
 .middletop {
     grid-column: 2/3;
     grid-row: 1/3;
 }
 .rightlong div {
-    /* width: 100px; */
-    /* height: 50px; */
+    width: 100px;
+    height: 50px;
+    background-color:lightgrey;
+    /* margin-bottom: 10px; */
+    border: 1px solid black;
+    padding: 60px;
+
 }
 footer {
     background-color:#353839;
