@@ -73,7 +73,7 @@ main div {
     text-align: center;
     border: 1px solid black;
     padding: 10px;
-    background-color: navy;
+    background-color: darkcyan;
     color: #fff;
 }
 .middletop {
@@ -107,7 +107,7 @@ main div {
     flex-direction: column;
     justify-content: center;
     justify-content: space-evenly;
-    background-color: navy;
+    background-color: darkcyan;
     align-items: center;
 }
 .trans {
@@ -151,7 +151,7 @@ button {
 }
 .rightlong div {
     width: 200px;
-    background-color: navy;
+    background-color: darkcyan;
     box-shadow: 1px 0px 5px #000;
     /* margin-bottom: 10px; */
     border: 1px solid black;
