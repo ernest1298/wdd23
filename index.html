@@ -29,32 +29,17 @@
                 <a href="#"><img src="Chamber/images/facebook_logo.png" alt=""></a>
             </div>
         </header>
-        <main> 
-            <div class="rightlong">
-                <div>
-                    <h5>Thankful Transport</h5>
-                    <img src="Chamber/images/transport.jpg" alt="" class="trans">
-                    <p>"We get it there for you!"</p>
-                    <hr>
-                    <p>hello@thankfulltransport.com</p>
-                    <p>+123-4567890 Website</p>
-                </div>
-                <div>
-                    <h5>Code Primera</h5>
-                    <img src="Chamber/images/pencil.jpg" alt="" class="trans">
-                    <p>An after school coding instrucional program.</p>
-                    <hr>
-                    <p>hello@thankfulltransport.com</p>
-                    <p>+123-4567890 Website</p>
-                </div>
-                <div>
-                    <h5>Build A Treefort</h5>
-                    <img src="Chamber/images/treefort.webp" alt="" class="trans">
-                    <p>over 10000 Plans</p>
-                    <hr>
-                    <p>hello@thankfulltransport.com</p>
-                    <p>+123-4567890 Website</p>
-                </div>
+        <main>
+            <div class="middletop">
+            
+                <h2>Welcome to REXBURG</h2>
+                <!-- <img src="/Chamber/images/rexyphoto.jpg" alt=""> -->
+                <picture>
+                    <source media="(min-width: 900px)" srcset="Chamber/images/rexyphoto.jpg">
+                    <source media="(min-width: 500px)" srcset="Chamber/images/rexyphoto-medium.jpg">
+                    <img src="Chamber/images/rexyphoto-small.jpg" alt="" />
+                  </picture>
+                <button>Join the Chamber</button>
             </div>
         <div class="leftbottom">
             <h5>Ribbon Cutting</h5>
@@ -65,12 +50,42 @@
             <h5>Weather</h5>
             <div class="wed">
                 <img src="Chamber/images/weather.gif" alt="img" class="wea">
-                <span>&deg;C</span>
+                <span id="current-temperature">33&deg;C</span>
             </div> <br>
             <p class="par">Partly Cloudy</p>
             <hr>
-            <p>Wind Speed: 2.5km/h</p>
-            <p>Wind Chill: N/A</p>
+            <p>
+                wind Speed : <span id="wind-speed">4</span>mp/h
+            </p>
+            <p>Wind Chill:
+                <span id="wind-chill">N/A</span>
+            </p>
+        </div>
+        <div class="rightlong">
+            <div>
+                <h5>Thankful Transport</h5>
+                <img src="Chamber/images/transport.jpg" alt="" class="trans">
+                <p>"We get it there for you!"</p>
+                <hr>
+                <p>hello@thankfulltransport.com</p>
+                <p>+123-4567890 Website</p>
+            </div>
+            <div>
+                <h5>Code Primera</h5>
+                <img src="Chamber/images/pencil.jpg" alt="" class="trans">
+                <p>An after school coding instrucional program.</p>
+                <hr>
+                <p>hello@thankfulltransport.com</p>
+                <p>+123-4567890 Website</p>
+            </div>
+            <div>
+                <h5>Build A Treefort</h5>
+                <img src="Chamber/images/treefort.webp" alt="" class="trans">
+                <p>over 10000 Plans</p>
+                <hr>
+                <p>hello@thankfulltransport.com</p>
+                <p>+123-4567890 Website</p>
+            </div>
         </div>
         <div class="lefttop">
             <button>Join Us!</button>
@@ -79,13 +94,6 @@
         <div class="middlebottom">
             <h5>News Release</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class="middletop">
-            <div class="mid">
-                <h2>Welcome to REXBURG</h2>
-                <img src="Chamber/images/rexy photo.jpg" alt="">
-                <button class="btn">Join the Chamber</button>
-            </div>
         </div>
 
         </main>
@@ -113,5 +121,6 @@
             </div>
         </footer>
     </div>
+    <scirpt src= "/windchill.js"></scirpt>
 </body>
 </html>
