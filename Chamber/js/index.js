@@ -59,7 +59,7 @@ if(!stored_date) {
 localStorage.setItem('lastvisited', now_date);
 
 //directory page
-const requestURL = 'https://luckysandwich7.github.io/wdd230/chamber/directory/data.json';
+const requestURL = 'https://ernest1298.github.io/wdd23/Chamber/data.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
@@ -78,17 +78,17 @@ function displayAffiliates(affiliate) {
   let card = document.createElement('section');
   let h2 = document.createElement('h2');
   let phone = document.createElement('p');
-  let email = document.createElement('p');
+  // let email = document.createElement('p');
   let website = document.createElement('p');
   let image = document.createElement('img');
-  let membership = document.createElement('p');
+  // let membership = document.createElement('p');
 
   // Change the textContent property of the h2 element to contain the prophet's full name
   h2.textContent = `${affiliate.name}`;
   phone.textContent = `Phone: ${affiliate.phone}`;
-  email.textContent = `Email: ${affiliate.email}`;
+  // email.textContent = `Email: ${affiliate.email}`;
   website.textContent = `Website: ${affiliate.website}`;
-  membership.textContent = `${affiliate.membership} Member`;
+  // membership.textContent = `${affiliate.membership} Member`;
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values.
   image.setAttribute('src', affiliate.image);
@@ -100,9 +100,9 @@ function displayAffiliates(affiliate) {
   card.appendChild(h2);
   card.appendChild(image);
   card.appendChild(phone);
-  card.appendChild(email);
+  // card.appendChild(email);
   card.appendChild(website);
-  card.appendChild(membership);
+  // card.appendChild(membership);
 
   // Add/append the existing HTML div with the cards class with the section(card)
   document.querySelector('div.cards').appendChild(card);
