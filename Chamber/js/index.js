@@ -59,7 +59,7 @@ if(!stored_date) {
 localStorage.setItem('lastvisited', now_date);
 
 //directory page
-const requestURL = 'https://ernest1298.github.io/wdd23/Chamber/data.json';
+const requestURL = 'https://ernest1298.github.io/wdd23/data.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
