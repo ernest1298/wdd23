@@ -20,7 +20,7 @@
         {
             "name": "  The Brightway Thompson Agency",
             "phone": "208-563-6030",
-            "website": "https://www.brightway.com/agencies/ID/Rexburg/0482",
+            "website": "https://www.brightway.com/agencies",
             "image": "../Chamber/brightway.png"
             
         },
@@ -68,7 +68,7 @@
         {
             "name": "Les Schwab Tire Center",
             "phone": "(517) 729-7326",
-            "website": "https://www.lesschwab.com/stores/id/rexburg/407-s-5th-w/",
+            "website": "https://www.lesschwab.com/stores/id",
             "image": "../Chamber/LesSchwabWebLogo.jpg"
             
         }
