@@ -220,6 +220,19 @@ footer {
 .thankYou {
     margin: auto;
 }
+#display {
+    margin: auto auto;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.cards {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 60px;
+    background-color: darkcyan;
+    padding: 20px;
+}
 @media only screen and (max-width: 60rem) {
     main {
         display: block;
