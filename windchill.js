@@ -23,3 +23,4 @@
     } else {
         windChill.innerHTML = "N/A"
     };
+    

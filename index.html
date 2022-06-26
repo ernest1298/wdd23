@@ -49,19 +49,24 @@
             <p>Join us for the grand opening of The Diamonod Shack, Thursday at 1:00 p.m. <a href="#">more info ...</a></p>
         </div>
         <div class="leftmiddle">
-            <h5>Weather</h5>
-            <div class="wed">
-                <img src="Chamber/images/weather.gif" alt="img" class="wea">
-                <span id="current-temperature">33&deg;C</span>
-            </div> <br>
-            <p class="par">Partly Cloudy</p>
-            <hr>
-            <p>
-                wind Speed : <span id="wind-speed">4</span>mp/h
-            </p>
-            <p>Wind Chill:
-                <span id="wind-chill">N/A</span>
-            </p>
+            <section class="item" id="weather">
+            <h3>Weather</h3>
+            <div class="temp">
+            <img src="/Chamber/images/weather.gif" alt="" id="weather-icon" class="wea"/>
+            <p><span id="current-temp"></span> &deg;F</p>
+            </div>
+            <div class="cloudy">
+            <p><strong>Party Cloudy</strong></p>
+            <ul>
+            <li>Wind speed: <span id="speed" ></span> km/h</li>
+            <li>Wind Chill: <span id="windChill">
+            </span>&deg;</li>
+            </ul>
+            </div>
+            
+            </section>
+            
+            
         </div>
         <div class="rightlong">
             <div>
@@ -123,7 +128,7 @@
             </div>
         </footer>
     </div>
-    <scirpt src= "/windchill.js"></scirpt>
+    <!-- <scirpt src= "/windchill.js"></scirpt> -->
     <script src="/Chamber/js/index.js"></script>
 </body>
 </html>

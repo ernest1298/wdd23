@@ -64,15 +64,15 @@ const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");
 
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+
 
 gridbutton.addEventListener("click", () => {
-	// example using arrow function
+	
 	display.classList.add("grid");
 	display.classList.remove("list");
 });
 
-listbutton.addEventListener("click", showList); // example using defined function
+listbutton.addEventListener("click", showList); 
 
 function showList() {
 	display.classList.add("list");
@@ -87,23 +87,22 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    console.table(jsonObject);  
 
     const affiliates = jsonObject['affiliates'];
     affiliates.forEach(displayAffiliates);
   });
 
 function displayAffiliates(affiliate) {
-  // Create elements to add to the document
+  
   let card = document.createElement('section');
   let h2 = document.createElement('h2');
   let phone = document.createElement('p');
-  // let email = document.createElement('p');
+  
   let website = document.createElement('p');
   let image = document.createElement('img');
-  // let membership = document.createElement('p');
-
-  // Change the textContent property of the h2 element to contain the prophet's full name
+  // 
+  
   h2.textContent = `${affiliate.name}`;
   phone.textContent = `Phone: ${affiliate.phone}`;
   // email.textContent = `Email: ${affiliate.email}`;
@@ -127,3 +126,46 @@ function displayAffiliates(affiliate) {
   // Add/append the existing HTML div with the cards class with the section(card)
   document.querySelector('div.cards').appendChild(card);
 }
+// select HTML elements in the document
+const currentTemp = document.querySelector('#current-temp');
+const weatherIcon = document.querySelector('#weather-icon');
+const captionDesc = document.querySelector('figcaption');
+// const maxTemp = document.querySelector('#temp_max');
+// const minTemp = document.querySelector('#temp_min');
+const windSpeed = document.querySelector('#speed')
+
+let temp= currentTemp;
+let wSpeed= windSpeed;
+
+var windChill= (35.74 + (0.6215 * temp))-(35.75 * Math.pow(wSpeed,0.16)) + (0.4275*temp*Math.pow(wSpeed,0.16));
+var windChill= Math.round(windChill);
+document.getElementById("windChill").innerHTML= windChill;
+
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Sunyani&units=imperial&appid=1c46ab2790dbd1be365348f91b70dda1';
+
+apiFetch(url);
+
+async function apiFetch(apiURL) {
+    const response = await fetch(apiURL);
+    if (response.ok) {
+      const data = await response.json();
+      console.log(data); // this is for testing the call
+      displayResults(data);
+    } else {
+        throw Error(await response.text());
+    }
+}
+
+function  displayResults(weatherData) {
+    currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(1)}</strong>`;
+    // maxTemp.innerHTML = weatherData.main.temp_max.toFixed(1);
+    // minTemp.innerHTML = weatherData.main.temp_min.toFixed(1);
+    windSpeed.innerHTML = weatherData.wind.speed.toFixed(2)
+
+    const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+    const desc = weatherData.weather[0].description;
+  
+    weatherIcon.setAttribute('src', iconsrc);
+    weatherIcon.setAttribute('alt', desc);
+    captionDesc.innerHTML = desc.toUpperCase();
+  }

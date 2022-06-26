@@ -52,7 +52,7 @@ main {
     margin-bottom: 20px;
 }
 h2 {
-    color: yellow;
+    color:black;
     font-weight: bold;
     z-index: 20;
     padding-top: 10px;
@@ -117,7 +117,7 @@ main div {
     width: 100px;
 }
 a {
-    color: yellow;
+    color:yellow;
     text-decoration: none;
 }
 .wea {
