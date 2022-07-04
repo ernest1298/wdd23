@@ -318,3 +318,67 @@ label {
     display: block;
     background-color: darkcyan;
 }
+.FN {
+    
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 0px 10px #fff;
+}
+.BD {
+    
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 0px 10px #fff;
+}
+.BN {
+    
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 0px 10px #fff;
+}
+.PH {
+    
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 0px 10px #fff;
+}
+.EM{
+   
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 0px 10px #fff;
+}
+.BT{
+    
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 0px 10px #fff;
+}
+.app{
+    
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 0px 10px #fff;
+}
+legend {
+    
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 0px 10px #fff;
+    text-align: center;
+}
+.para {
+    
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 0px 10px #fff;
+}
