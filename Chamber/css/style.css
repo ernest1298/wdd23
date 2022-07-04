@@ -382,3 +382,15 @@ legend {
     font-size: 20px;
     text-shadow: 2px 0px 10px #fff;
 }
+.submitBtn{
+    padding: 10px 5px;
+    background-color: green;
+    color: #fff;
+    border: 0px;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 120px;
+    box-shadow: 0px 0px 10px #000;
+    cursor: pointer;
+
+}
