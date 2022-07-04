@@ -308,3 +308,13 @@ footer {
     }
     
 }
+label {
+    display:block;
+}
+.app-info {
+    display: block;
+}
+.hh {
+    display: block;
+    background-color: darkcyan;
+}
