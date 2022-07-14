@@ -12,9 +12,9 @@ body {
     text-align: left;
 }
 header {
-    background-color:#353839;
+    background-color:lightblue;
     padding: 50px;
-    color: white;
+    color: black;
     display: flex;
 }
 .headtxt {
@@ -29,7 +29,7 @@ header {
 .mainnav a {
     text-decoration: none;
     margin-left: 40px;
-    color: white;
+    color:black;
 }
 .mainnav a:hover {
     background-color: white;
@@ -189,15 +189,15 @@ button {
 }
 .visited {
     color: #ff6347;
-    text-shadow: 1px 1px 50px #fff;
+    text-shadow: 1px 1px 50px black;
 }
 img[data-src] {
     filter: blur(0.2em);
 }
 footer {
-    background-color:#353839;
+    background-color:lightblue;
     padding: 50px;
-    color: white;
+    color: black;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
