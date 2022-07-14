@@ -5,7 +5,7 @@
             "phone": "208-356-7274",
             "website": "https://lds.org",
             "address": "Idaho falls, United States",
-            "image": "images/Idaho-falls.png"
+            "image": "../images/Idaho-falls.png"
         
         },
        
@@ -14,7 +14,7 @@
             "phone": "(208-542-5024)", 
             "website": "lds.org",
             "address": "750 S 2nd E, Rexbug ID United States",
-            "image": "images/rexburg-temple.jpeg"
+            "image": "../images/rexburg-temple.jpeg"
             
         },
 
@@ -24,7 +24,7 @@
             "phone": "208-563-6030",
             "website": "https://lds.org",
             "address": "1405 Eastland Dr N Twin Falls ID 83301 United States",
-            "image": "images/twin-falls.jpg"
+            "image": "../images/twin-falls.jpg"
             
         },
         
@@ -33,7 +33,7 @@
             "phone": "208-356-3722",
             "website": "https://lds.org",
             "address": "1211 S Cole Rd Boise ID 83709-1871 United States",
-            "image": "images/boise-temple.jpeg"
+            "image": "../images/boise-temple.jpeg"
             
         }
         
