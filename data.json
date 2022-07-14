@@ -1,78 +1,43 @@
 {
     "affiliates": [
         {
-            "name": " AMET Inc.",
+            "name": " Idaho Falls Tempe",
             "phone": "208-356-7274",
-            "website": "https://ametinc.com",
-            "image": "../Chamber/AMET-Logo-resized-02.png"
+            "website": "https://lds.org",
+            "address": "Idaho falls, United States",
+            "image": "../Chamber/Idaho-falls.png"
         
         },
        
         {
-            "name": "BBSI Idaho Falls",
+            "name": "Rexburg Temple",
             "phone": "(208-542-5024)", 
-            "website": "https://www.bbsi.com/idahofalls",
-            "image": "../Chamber/bbsi.png"
+            "website": "lds.org",
+            "address": "750 S 2nd E, Rexbug ID United States",
+            "image": "../Chamber/rexburg-temple.jpeg"
             
         },
 
        
         {
-            "name": "  The Brightway Thompson Agency",
+            "name": " Twin Falls Temple",
             "phone": "208-563-6030",
-            "website": "https://www.brightway.com/agencies",
-            "image": "../Chamber/brightway.png"
+            "website": "https://lds.org",
+            "address": "1405 Eastland Dr N Twin Falls ID 83301 United States",
+            "image": "../Chamber/twin-falls.jpg"
             
         },
         
         {
-            "name": "Development Workshop Inc.",
+            "name": "Boise Temple",
             "phone": "208-356-3722",
-            "website": "https://www.dwinc.org",
-            "image": "../Chamber/development-workshop-inc..png"
-            
-        },
-        
-        {
-            "name": "Oswald Services",
-            "phone": "(517) 335-2282",
-            "website": "https://www.oswaldserviceinc.com/",
-            "image": "../Chamber/Oswald-Service-and-Repair.jpg"
-            
-        },
-      
-        {
-            "name": "Grover Service Center",
-            "phone": "(517) 555-3474",
-            "website": "https://www.groverservicecentre.net/",
-            "image": "../Chamber/grover-service.png"
-            
-        },
-        
-        {
-            "name": "Call Oil",
-            "phone": "(517) 421-5297",
-            "website": "http://callsinclair.co/",
-            "image": "../Chamber/cail-oil4.png"
-            
-        },
-      
-        {
-            "name": "Cedar Point Trucking",
-            "phone": "(517) 346-6433",
-            "website": "https://www.cedarpointtrucking.com/",
-            "image": "../Chamber/image-asset-800x476.jpeg"
-           
-        },
-       
-        {
-            "name": "Les Schwab Tire Center",
-            "phone": "(517) 729-7326",
-            "website": "https://www.lesschwab.com/stores/id",
-            "image": "../Chamber/LesSchwabWebLogo.jpg"
+            "website": "https://lds.org",
+            "address": "1211 S Cole Rd Boise ID 83709-1871 United States",
+            "image": "../Chamber/boise-temple.jpeg"
             
         }
-  
+        
+        
     ]
   }
   

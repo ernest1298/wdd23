@@ -98,6 +98,7 @@ function displayAffiliates(affiliate) {
   let card = document.createElement('section');
   let h2 = document.createElement('h2');
   let phone = document.createElement('p');
+  let address = document.createElement('d')
   
   let website = document.createElement('p');
   let image = document.createElement('img');
@@ -105,7 +106,7 @@ function displayAffiliates(affiliate) {
   
   h2.textContent = `${affiliate.name}`;
   phone.textContent = `Phone: ${affiliate.phone}`;
-  // email.textContent = `Email: ${affiliate.email}`;
+  address.textContent = `Address: ${affiliate.address}`;
   website.textContent = `Website: ${affiliate.website}`;
   // membership.textContent = `${affiliate.membership} Member`;
 
@@ -119,7 +120,7 @@ function displayAffiliates(affiliate) {
   card.appendChild(h2);
   card.appendChild(image);
   card.appendChild(phone);
-  // card.appendChild(email);
+  card.appendChild(address);
   card.appendChild(website);
   // card.appendChild(membership);
 
