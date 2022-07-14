@@ -230,7 +230,7 @@ footer {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 60px;
-    background-color: darkcyan;
+    
     padding: 20px;
 }
 
