@@ -76,7 +76,7 @@ main div {
     text-align: center;
     border: 1px solid black;
     padding: 10px;
-    background-color: darkcyan;
+    background-color: whitesmoke;
     color: #fff;
 }
 .middletop {
@@ -126,8 +126,8 @@ a {
 /* just work */
 button {
     padding: 10px 5px;
-    background-color: green;
-    color: #fff;
+    background-color: cyan;
+    color:black;
     border: 0px;
     border-radius: 10px;
     font-weight: bold;
@@ -316,53 +316,53 @@ label {
 }
 .hh {
     display: block;
-    background-color: darkcyan;
+    background-color: cyan;
 }
 .FN {
     
-    color: yellow;
+    color: black;
     font-weight: bold;
     font-size: 20px;
     text-shadow: 2px 0px 10px #fff;
 }
 .BD {
     
-    color: yellow;
+    color: black;
     font-weight: bold;
     font-size: 20px;
     text-shadow: 2px 0px 10px #fff;
 }
 .BN {
     
-    color: yellow;
+    color: black;
     font-weight: bold;
     font-size: 20px;
     text-shadow: 2px 0px 10px #fff;
 }
 .PH {
     
-    color: yellow;
+    color: black;
     font-weight: bold;
     font-size: 20px;
     text-shadow: 2px 0px 10px #fff;
 }
 .EM{
    
-    color: yellow;
+    color: black;
     font-weight: bold;
     font-size: 20px;
     text-shadow: 2px 0px 10px #fff;
 }
 .BT{
     
-    color: yellow;
+    color:black;
     font-weight: bold;
     font-size: 20px;
     text-shadow: 2px 0px 10px #fff;
 }
 .app{
     
-    color: yellow;
+    color: black;
     font-weight: bold;
     font-size: 20px;
     text-shadow: 2px 0px 10px #fff;
