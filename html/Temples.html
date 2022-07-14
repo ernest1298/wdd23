@@ -1,108 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Chamber/css/style.css">
-    <title>discover</title>
+    <title>Home</title>
 </head>
+
 <body>
     <div class="mainContainer">
         <header>
             <div>
                 <a href="../index.html">
-                    <img src="../Chamber/images/TEMPLE.jpg" alt="" class="logo">
-                </a>
+            <img src="../Chamber/images/TEMPLE.jpg" alt="" class="logo"></a>
             </div>
             <div class="headtxt">
-                <h1>CHAMBER OF COMMENCE</h1>
+                <h1>;The Temple Inn & Suites</h1>
                 <h6 class="byline">REXBURG</h6>
             </div>
             <div class="navlink">
                 <nav class="mainnav">
-                    <a href="Temples.html">Discover</a>
-                    <a href="directory.html">Directory</a>
-                    <a href="join.html">Join</a>
+                    <a href="Services.html">Services</a>
+                    <a href="Temples.html">Temples</a>
+                    <a href="Reservation.html">Reservation</a>
                     <a href="Contact.html">Contact</a>
                 </nav>
             </div>
             <div class="social">
                 <a href="facebook.com"><img src="../Chamber/images/facebook_logo.png" alt=""></a>
             </div>
+            <div class="visited"></div>
+            <div id="last_visited"></div>
         </header>
-        <main id="dis">
-            <section class="a">
-            <picture class="picture1">
-                <img class="disimg" src="https://via.placeholder.com/300x400" data-src="../images/lakerexy.jpg" alt='cat'>
-                <p class="para">Rexburg Lake</p>
-            </picture>
-            <picture class="picture2">
-                <img class="disimg" src="https://via.placeholder.com/300x400" data-src="../images/beaverdick.jpg" alt='cat'>
-                <p class="para">Beaver dick Park</p>
-            </picture>
-            <!-- <picture class="picture2">
-                <img class="disimg" src="https://via.placeholder.com/300x400" data-src="images/lakerexy.jpg" alt='cat'>
-                <p class="para">Lorem ipsum dolor sit amet.</p>
-            </picture> -->
-            <picture class="picture3">
-                <img class="disimg" src="https://via.placeholder.com/300x400" data-src="../images/bear.jpg" alt='cat'>
-                <p class="para">Yellowstone Bear World</p>
-            </picture>
-            </section>
-            <section class="b">
-            <picture class="picture4">
-                <img class="disimg" src="https://via.placeholder.com/300x400" data-src="../images/acade.jpg" alt='cat'>
-                    <p class="para">Fat Cats Rexburg</p>
-            </picture>
-            <picture class="picture5">
-                <img class="disimg" src="https://via.placeholder.com/300x400" data-src="../images/Rexburg-Idaho-Temple.jpg" alt='cat'>
-                <p class="para">Beuatiful Rexburg Idaho Temple</p>
-            </picture>
-            <picture class="picture6">
-                <img class="disimg" src="https://via.placeholder.com/300x400" data-src="../images/sand-dunes-things-to-do.jpg" alt='cat'>
-                <p class="para">The sand-dunes</p>
-            </picture>
-            </section>
-            <section class="c">
-                <picture class="picture7">
-                    <img class="disimg" src="https://via.placeholder.com/300x400" data-src="../images/skyjumping.jpg" alt='cat'>
-                    <p class="para">Rexburg sky diving expierence</p>
-                </picture>
-                <picture class="picture8">
-                    <img class="disimg" src="https://via.placeholder.com/300x400" data-src="../images/tigers-at-zoo-e1442030423517-1024x489.jpg" alt='cat'>
-                    <p class="para">Rexburg Zoo.</p>
-                </picture>
-                <picture class="picture9">
-                    <img class="disimg" src="https://via.placeholder.com/300x400" data-src="../images/Rexburg-Rapids.jpg" alt='cat'>
-                    <p class="para">Rexbug Rapids</p>
-                </picture>
-            </section>
-        </main>
-        <footer>
-            <div class="foot1">
-                <p>
-                    chamber@gmail.com <br>
-                    +1234567890  <br>
-                    Location Map
-                </p>
-            </div>
-            <div class="foot2">
-                <p>
-                    Chamber of commence
-                    &copy;Chamber of commence
-                </p>
-                <p>
-                    CHMABER OF COMMENCE, REXBURG
-                    224 N 44 E 
-                    83440
-                </p>
-            </div>
-            <div class="foot3">
-                <img src="../Chamber/images/TEMPLE.jpg" alt="" class="logo">
-            </div>
-        </footer>
-    </div>
-    <script src="../Chamber/js/index.js"></script>
+    <section id="display">
+        <h2 class="headline">Welcome to the REXBURG</h2>
+        
+        <div class="menu">
+            <button id="grid">Grid</button>
+            <button id="list">List</button>
+        </div>
+        <article class="grid">
+            <div class="cards"></div>
+        </article>
+    </section>
+    <footer>
+        <div class="foot1">
+            <p>
+                TEMPLEINN@gmail.com <br>
+                +1234567890  <br>
+                Location Map
+            </p>
+        </div>
+        <div class="foot2">
+            <p>
+                The Temple Inn & Suites
+                &copy;The Temple Inn & Suites
+            </p>
+            <p>
+                The Temple Inn & Suites, REXBURG
+                224 N 44 E 
+                83440
+            </p>
+        </div>
+        <div class="foot3">
+            <img src="../Chamber/images/TEMPLE.jpg" alt="" class="logo">
+        </div>
+    </footer>
+</div>
+<scirpt src= "/windchill.js"></scirpt>
+<script src="../Chamber/js/index.js"></script>
 </body>
+
 </html>
