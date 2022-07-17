@@ -102,12 +102,14 @@ function displayAffiliates(affiliate) {
   
   let website = document.createElement('p');
   let image = document.createElement('img');
+  let description = documnet.createElement('des');
   // 
   
   h2.textContent = `${affiliate.name}`;
   phone.textContent = `Phone: ${affiliate.phone}`;
   address.textContent = `Address: ${affiliate.address}`;
   website.textContent = `Website: ${affiliate.website}`;
+  description.textContent = `Description: ${affiliate.description}`;
   // membership.textContent = `${affiliate.membership} Member`;
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values.
