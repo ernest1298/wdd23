@@ -4,6 +4,11 @@
 body {
     height: 100vh;
 }
+.topP {
+    color : black;
+    border: none;
+}
+
 .mainContainer {
     display: block;
     background-color: #f5f5f5;
@@ -31,6 +36,9 @@ header {
     margin-left: 40px;
     color:black;
 }
+.btt {
+    margin: 50px 0px;
+}
 .mainnav a:hover {
     background-color: white;
     border-radius: 5px;
@@ -51,6 +59,10 @@ main {
     margin-top: 20px;
     margin-bottom: 20px; */
     height: 100%;
+}
+.in {
+    padding: 50px;
+    line-height: 2em;
 }
 h2 {
     color:black;
@@ -215,11 +227,26 @@ button {
 .picture1{
     grid-row: 1/2;
 }
+.flex {
+    background-image: url('/images/fly.webp');
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
 .disimg {
     margin-bottom: 10px;
     margin-top: 10px;
     width: 300px;
     height: 300px;
+    
+}
+.opra{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+    
+    
 }
 .disimg:hover {
     box-shadow: 5px 2px 5px #000;
@@ -281,7 +308,11 @@ footer {
     
     padding: 20px;
 }
-
+.link {
+    color: burlywood;
+    font-weight: bold;
+    text-decoration: underline;
+}
 .direct{
     max-width: 950px;
     margin: 20px auto;
@@ -291,6 +322,8 @@ footer {
     text-align: center;
     color: #1a1f23;
 }
+
+
 
 .grid .cards {
     display: grid;
@@ -363,7 +396,8 @@ label {
 }
 .hh {
     display: block;
-    background-color: cyan;
+    background-color:transparent;
+    
 }
 .FN {
     
@@ -432,7 +466,7 @@ legend {
 }
 .submitBtn{
     padding: 10px 5px;
-    background-color: green;
+    background-color: cyan;
     color:black;
     border: 0px;
     border-radius: 10px;
