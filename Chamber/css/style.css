@@ -16,11 +16,22 @@ body {
     margin: auto auto;
     text-align: left;
 }
+.ml{
+    display: block;
+    background-color: #fff;
+    width: 80%;
+    margin: auto auto;
+    text-align: left;
+
+}
 header {
     background-color:lightblue;
     padding: 50px;
     color: black;
     display: flex;
+    height: 75px;
+    
+
 }
 .headtxt {
     margin-left: 50px;
@@ -46,7 +57,7 @@ header {
 }
 .social a img {
     width: 50px;
-    margin-top: 80%;
+    margin-top: 10%;
     margin-left: 20px;
 }
 main {
@@ -335,6 +346,7 @@ footer {
 .grid .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
    
 }
 
