@@ -233,6 +233,13 @@ button {
     justify-content: space-evenly;
     align-items: flex-start;
 }
+.gi{
+    color:black;
+    background-color: bisque;
+    border: none;
+    padding: 10px;
+    
+}
 .disimg {
     margin-bottom: 10px;
     margin-top: 10px;
