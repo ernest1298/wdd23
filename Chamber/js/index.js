@@ -98,19 +98,24 @@ function displayAffiliates(affiliate) {
   let card = document.createElement('section');
   let h2 = document.createElement('h2');
   let phone = document.createElement('p');
-  let address = document.createElement('d')
+  let address = document.createElement('d');
   
   let website = document.createElement('p');
   let image = document.createElement('img');
-  //let description = documnet.createElement('des');
-  // 
+  let History = document.createElement('his');
+  let Service = document.createElement('Ser');
+  let schedule = document.createElement('Temp');
+  let closure = document.createElement('Tempc');
+  
   
   h2.textContent = `${affiliate.name}`;
   phone.textContent = `Phone: ${affiliate.phone}`;
   address.textContent = `Address: ${affiliate.address}`;
   website.textContent = `Website: ${affiliate.website}`;
-  //description.textContent = `Description: ${affiliate.description}`;
-  // membership.textContent = `${affiliate.membership} Member`;
+  History.textContent = `History: ${affiliate.History}`;
+  Service.textContent = `Service: ${affiliate.Service}`;
+  schedule.textContent = `schedule: ${affiliate.schedule}`;
+  closure.textContent = `closure: ${affiliate.closure}`;
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values.
   image.setAttribute('src', affiliate.image);
@@ -124,8 +129,10 @@ function displayAffiliates(affiliate) {
   card.appendChild(phone);
   card.appendChild(address);
   card.appendChild(website);
-  //card.appendChild(description);
-  // card.appendChild(membership);
+  card.appendChild(History);
+  card.appendChild(Service);
+  card.appendChild(schedule);
+  card.appendChild(closure);
 
   // Add/append the existing HTML div with the cards class with the section(card)
   document.querySelector('div.cards').appendChild(card);
